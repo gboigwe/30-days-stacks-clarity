@@ -1,0 +1,23 @@
+[project]
+name = 'day-1-hello-stacks'
+description = 'Day 1 of 30-day Stacks tutorial - Hello World with Clarity 3.0'
+authors = ["Gbolahan Akande - geakande@gmail.com"]
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.hello-world]
+path = 'contracts/hello-world.clar'
+clarity_version = 3
+epoch = 'latest'
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
