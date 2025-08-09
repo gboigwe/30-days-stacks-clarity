@@ -1,0 +1,16 @@
+[project]
+name = "day-5-token-economics"
+description = "SIP-010 token implementation with community distribution mechanics"
+authors = ["30 Days of Stacks & Clarity"]
+clarinet_version = "3.0.0"
+
+[contracts.sip-010-trait]
+path = "contracts/sip-010-trait.clar"
+clarity_version = 3
+epoch = 3.0
+
+[contracts.ageofdevs-token]
+path = "contracts/ageofdevs-token.clar" 
+clarity_version = 3
+epoch = 3.0
+depends_on = ["sip-010-trait"]
