@@ -53,9 +53,9 @@ Build your development foundation with modern tools and basic concepts.
 | [1](./day-1-hello-stacks/) | Hello World Contract | Clarity 3.0 basics, testing, deployment |
 | [2](./day-2-react-frontend/) | React Frontend | Wallet connections, reading contracts |
 | [3](./day-3-advanced-interactions/) | Write Transactions | Transaction management, optimistic UI |
-<!-- | [4](./day-4-task-management/) | Task dApp | Multi-user interactions, state management |
+| [4](./day-4-task-management/) | Task dApp | Multi-user interactions, state management |
 | [5](./day-5-token-creation/) | SIP-010 Token | Create your own cryptocurrency |
-| [6](./day-6-nft-basics/) | NFT Collection | Digital collectibles and metadata |
+<!-- | [6](./day-6-nft-basics/) | NFT Collection | Digital collectibles and metadata |
 | [7](./day-7-dynamic-nfts/) | Dynamic NFTs | Changeable properties and traits |
 
 ### **Week 2: Real Applications (Days 8-14)**
